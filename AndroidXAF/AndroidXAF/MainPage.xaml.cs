@@ -1,4 +1,5 @@
 ﻿using Microsoft.AppCenter.Analytics;
+using Microsoft.AppCenter.Crashes;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -19,8 +20,17 @@ namespace AndroidXAF
         int count = 0;
         void Button_Clicked(object sender, System.EventArgs e)
         {
-
             Analytics.TrackEvent("Button is clicked at " + DateTime.Now.ToLongTimeString());
+
+            try
+            {
+                throw new Exception("a test exception");
+            }
+            catch (Exception exception)
+            {
+                Crashes.TrackError(exception);
+            }
+            
 
             count++;
             ((Button)sender).Text = $"Version1: You clicked {count} times.";
