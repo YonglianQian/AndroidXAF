@@ -23,6 +23,7 @@ namespace AndroidXAF
 
         protected override void OnSleep()
         {
+
         }
 
         protected override void OnResume()
