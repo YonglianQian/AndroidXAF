@@ -18,7 +18,8 @@ namespace AndroidXAF
 
         protected override void OnStart()
         {
-            AppCenter.Start("android=7011b0df-8bdb-481d-97c0-ff484ec4284e;",typeof(Analytics), typeof(Crashes));
+            AppCenter.Start("android=7011b0df-8bdb-481d-97c0-ff484ec4284e;",
+                  typeof(Analytics), typeof(Crashes));
         }
 
         protected override void OnSleep()
