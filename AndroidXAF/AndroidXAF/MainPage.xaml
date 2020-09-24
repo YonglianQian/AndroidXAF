@@ -21,5 +21,4 @@
         </Label>
         <Button Text="Click Me" Clicked="Button_Clicked" />
     </StackLayout>
-
 </ContentPage>
