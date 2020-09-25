@@ -30,10 +30,9 @@ namespace AndroidXAF
             {
                 Crashes.TrackError(exception);
             }
-            
 
             count++;
-            ((Button)sender).Text = $"Version4: You clicked {count} times.";
+            ((Button)sender).Text = $"Version5: You clicked {count} times.";
         }
     }
 }
