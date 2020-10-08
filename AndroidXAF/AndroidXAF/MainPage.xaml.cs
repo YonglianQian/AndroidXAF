@@ -22,17 +22,17 @@ namespace AndroidXAF
         {
             Analytics.TrackEvent("Button is clicked at " + DateTime.Now.ToLongTimeString());
 
-            try
-            {
-                throw new Exception("a test exception");
-            }
-            catch (Exception exception)
-            {
-                Crashes.TrackError(exception);
-            }
+            //try
+            //{
+            //    throw new Exception("a test exception");
+            //}
+            //catch (Exception exception)
+            //{
+            //    Crashes.TrackError(exception);
+            //}
 
             count++;
-            ((Button)sender).Text = $"Version 14: You clicked {count} times.";
+            ((Button)sender).Text = $"Version 15: You clicked {count} times.";
         }
     }
 }
