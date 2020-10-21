@@ -15,7 +15,6 @@ namespace AndroidXAF
         public MainPage()
         {
             InitializeComponent();
-
         }
         int count = 0;
         void Button_Clicked(object sender, System.EventArgs e)
@@ -32,7 +31,7 @@ namespace AndroidXAF
             //}
 
             count++;
-            ((Button)sender).Text = $"Version 16: You clicked {count} times.";
+            ((Button)sender).Text = $"Version 18: You clicked {count} times.";
         }
     }
 }
