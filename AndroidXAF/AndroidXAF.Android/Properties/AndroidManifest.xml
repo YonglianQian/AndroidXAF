@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.companyname.androidxaf" android:installLocation="auto" android:versionName="South" android:versionCode="20">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.companyname.androidxaf" android:installLocation="auto" android:versionName="SouthAlpha" android:versionCode="21">
 	<uses-sdk android:minSdkVersion="21" android:targetSdkVersion="28" />
 	<application android:label="AndroidXAF.Android" android:theme="@style/MainTheme" android:icon="@drawable/pig"></application>
 	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
