@@ -31,7 +31,7 @@ namespace AndroidXAF
             //}
 
             count++;
-            ((Button)sender).Text = $"Version 20.1: You clicked {count} times.";
+            ((Button)sender).Text = $"Version 20.2: You clicked {count} times.";
         }
     }
 }
