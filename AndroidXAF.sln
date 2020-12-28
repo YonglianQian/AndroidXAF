@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AndroidXAF.Android", "AndroidXAF\AndroidXAF.Android\AndroidXAF.Android.csproj", "{A0A6FE2D-76C4-46A2-85BB-013BB22EADE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AndroidXAF", "AndroidXAF\AndroidXAF\AndroidXAF.csproj", "{72123235-58B8-46E6-977C-6151AB7AA16E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AndroidXAF", "AndroidXAF\AndroidXAF\AndroidXAF.csproj", "{72123235-58B8-46E6-977C-6151AB7AA16E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UITest1", "UITest1\UITest1.csproj", "{7DE29D32-443D-44B9-8ACB-7B209760A522}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +27,10 @@ Global
 		{72123235-58B8-46E6-977C-6151AB7AA16E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72123235-58B8-46E6-977C-6151AB7AA16E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{72123235-58B8-46E6-977C-6151AB7AA16E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{7DE29D32-443D-44B9-8ACB-7B209760A522}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DE29D32-443D-44B9-8ACB-7B209760A522}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DE29D32-443D-44B9-8ACB-7B209760A522}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DE29D32-443D-44B9-8ACB-7B209760A522}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
