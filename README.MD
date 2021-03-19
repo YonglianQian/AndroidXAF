@@ -1,5 +1,3 @@
 AndroidXAF application
 
-
-
 # something new
