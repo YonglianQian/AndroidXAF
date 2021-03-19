@@ -1,3 +1,2 @@
 AndroidXAF application
 
-# something new
